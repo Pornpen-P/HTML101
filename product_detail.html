@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail</title>
+  <style>
+    .square {
+      height: 200px;
+      width: 150px;
+      border: 1px solid #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    </style>
+</head>
+<body>
+  <h2>Toy name</h2>
+  <div style="display: flex;">
+  <div class="square">Toy picture </div>
+<div style="padding-left: 10px;">
+Brand <br>
+Gender <br>
+Age <br>
+Price <br>
+Shipping Method : Cash on Delively <br><br>
+<span style="color:red;"> <b>In Stock</b> </span> / <span style="color:red;"> <b>Out of Stock</b></span><br><br>
+Quantity
+<select style="width: 50px;" name="Quantity" id="Quantity">
+  <optgroup label="Quantity">
+    <option align = 'center'value="1">1</option>
+    <option align = 'center'value="2">2</option>
+    <option align = 'center'value="3">3</option>
+    <option align = 'center'value="4">4</option>
+    <option align = 'center'value="5">5</option>
+    <option align = 'center'value="6">6</option>
+    <option align = 'center'value="7">7</option>
+    <option align = 'center'value="8">8</option>
+    <option align = 'center'value="9">9</option>
+    <option align = 'center' value="10">10</option>
+  </optgroup>
+</select>
+<br>
+<br>
+<button type="button" style="width: 200px;"  onclick="alert('กดตะกร้าแล้วชำระเลย!')">Add to cart</button>
+</div>
+</div>
+</body>
+</html>

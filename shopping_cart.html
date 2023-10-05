@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <style>
+    .flex-container {
+  display: flex;
+}
+  </style>
+  <style>
+    table {
+      border-collapse: collapse;
+      border: 2px solid #000000;
+      width: 100%;
+    }
+
+    th {
+      border: 1px solid #dddddd;
+      padding: 10px;
+    }
+    td {
+      border: 1px solid #dddddd;
+    }
+    </style>
+</head>
+
+<body>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Shopping Cart</h1>
+<br>
+  <table>
+    <tr>
+      <th align="left">Item</th>
+      <th>Quantity</th>
+      <th align="right">Price(THB)</th>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;<b>Toy name</b> by Brand <br>
+        &nbsp&nbsp; Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age <br>
+        &nbsp&nbsp; <span style="color:red;"> <b>In Stock</b></span> / <span style="color:red;"><b>Out of Stock</b></span><br>
+        &nbsp&nbsp; <span style="color:blue;"> Delete </span>
+      </td>
+      <td align="center">
+        <select style="width: 80px;" name="Quantity" id="Quantity">
+          <optgroup label="Quantity">
+            <option align = 'center'value="1">1</option>
+            <option align = 'center'value="2">2</option>
+            <option align = 'center'value="3">3</option>
+            <option align = 'center'value="4">4</option>
+            <option align = 'center'value="5">5</option>
+            <option align = 'center'value="6">6</option>
+            <option align = 'center'value="7">7</option>
+            <option align = 'center'value="8">8</option>
+            <option align = 'center'value="9">9</option>
+            <option align = 'center' value="10">10</option>
+          </optgroup>
+        </select>
+      </td>
+      <td align="right">100.00&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;<b>Toy name</b> by Brand <br>
+        &nbsp&nbsp; Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age <br>
+        &nbsp&nbsp; <span style="color:red;"> <b>In Stock</b> </span> / <span style="color:red;"><b>Out of Stock</b></span><br>
+        &nbsp&nbsp; <span style="color:blue;"> Delete </span>
+      </td>
+      <td align="center" >
+        <select style="width: 80px;" name="Quantity" id="Quantity">
+          <optgroup label="Quantity">
+            <option align = 'center'value="1">1</option>
+            <option align = 'center'value="2">2</option>
+            <option align = 'center'value="3">3</option>
+            <option align = 'center'value="4">4</option>
+            <option align = 'center'value="5">5</option>
+            <option align = 'center'value="6">6</option>
+            <option align = 'center'value="7">7</option>
+            <option align = 'center'value="8">8</option>
+            <option align = 'center'value="9">9</option>
+            <option align = 'center' value="10">10</option>
+          </optgroup>
+        </select>
+      </td>
+      <td align="right">100.00&nbsp;</td>
+    </tr>
+  </table>
+  <br>
+  <div class="flex-container">
+  <div style="margin-right: 980px;" >
+  Shipping Method: Kerry Express <br>
+  Shipping fee: 150.00 THB
+</div>
+<div align="right">
+  <b>Subtotal (2 Items):</b><span style="color:rgb(167, 8, 8);"> <b>200.00</b></span> <b>THB</b><br>
+  <b>Shipping Fee:</b><span style="color:rgb(167, 8, 8);"> <b>150.00</b></span> <b>THB</b><br><br>
+  <button type="button" style="width: 200px;"  onclick="alert('ไปค่ะ ลุย!')">Process to checkout</button>
+</div>
+</div>
+</body>
+</html>

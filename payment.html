@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <style>
+    .flex-container {
+  display: flex;
+}
+  </style>
+  <style>
+    table {
+      border-collapse: collapse;
+      border: 2px solid #000000;
+      width: 100%;
+    }
+
+    th {
+      border: 1px solid #dddddd;
+      padding: 10px;
+    }
+    td {
+      border: 1px solid #dddddd;
+    }
+    </style>
+</head>
+
+<body>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Payment Method</h1>
+<br>
+<div class="flex-container">
+  <div style="width: 600px;">
+  <table>
+    <tr>
+      <th align="left">Item</th>
+      <th>Quantity</th>
+      <th align="right">Price(THB)</th>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;<b>Toy name</b> by Brand <br>
+        &nbsp&nbsp; Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age <br>
+        &nbsp&nbsp; <span style="color:red;"> <b>In Stock</b> </span> / <span style="color:red;"> <b>Out of Stock</b></span>
+        <br><br>
+      </td>
+      <td align="right">1&nbsp;</td>
+      <td align="right">100.00&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;<b>Toy name</b> by Brand <br>
+        &nbsp&nbsp; Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age <br>
+        &nbsp&nbsp; <span style="color:red;"> <b>In Stock</b> </span> / <span style="color:red;"><b>Out of Stock</b></span>
+        <br><br>
+      </td>
+      <td align="right" >1&nbsp;</td>
+      <td align="right">100.00&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div style="padding-left: 30px;" >
+<b>Order Summary</b><br><br>
+  &nbsp; &nbsp;Items(2):<span style="color:rgb(167, 8, 8);"> 200.00 </span>THB<br>
+  &nbsp; &nbsp;Shipping Fee:<span style="color:rgb(167, 8, 8);"> 150.00 </span>THB<br>
+<hr color="green">
+<b>Order total:</b> <span style="color:rgb(167, 8, 8);"> <b>200.00</b> </span><b>THB</b>
+</div>
+</div>
+<br>
+  Shipping Method: Kerry Express <br><br><br><br>
+  <b>Select payment methods</b><br><br><br>
+  <input type="radio" name="radio">   <b>Credit or Debit Cards</b><br><br>
+  <input type="radio" name="radio">   <b>Paypal</b><br><br>
+  <input type="radio" name="radio">   <b>Line Pay</b><br><br>
+<br>
+<br>
+<div align="center">
+  &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style="width: 200px;"  onclick="alert('สิ่งนี้เป็นของคุณ!')">Place you order</button>
+</div>
+</body>
+</html>
